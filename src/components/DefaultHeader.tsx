@@ -201,7 +201,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
             <Flex
                 py={2}
                 as={Link}
-                href={href ?? '#'}
+                href={href ?? '/'}
                 justify={'space-between'}
                 align={'center'}
                 _hover={{
