@@ -225,6 +225,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
 
             <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }}>
                 <Stack
+                    width={"full"}
                     mt={2}
                     pl={4}
                     borderLeft={1}
